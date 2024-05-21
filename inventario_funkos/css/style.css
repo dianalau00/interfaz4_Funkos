@@ -1,0 +1,143 @@
+/*
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Ing. Ruth Martínez.
+Actividad 4
+Ejercicio 4 Interfaz de inventario funkos
+Diana Laura Chan Martínez
+Tercer cuatrimestre
+3-C
+Trabajo entregado en tiempo y forma calificado en base a 10.
+Trabajos entregados en fecha posterior sin justificación son calificados en base a 8.
+*/   
+header{
+    text-align: center;
+    font-size: 30px;
+    
+}
+h1{
+    color: rgb(117, 197, 255);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: normal;
+}
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+  
+.card__content1 {
+    background: url(../img/checo.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card__content2 {
+    background: url(../img/checo\ funko.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card__content3 {
+    background: url(../img/checoo2.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card__content4 {
+    background: url(../img/max\ funko.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card__content5 {
+    background: url(../img/MX\ FUNKO\ parad.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card__content6 {
+    background: url(../img/max\ auto.jpg);
+    background-size: 100%;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+  
+button::before {
+    margin-left: auto;
+}
+  
+button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+}
+  
+button:hover::after, button:hover::before {
+    width: 100%;
+}
+
+
+
+.section2{
+    margin-top: 10px;
+}
+
+.cartas{
+    margin-top: 20px;
+}
